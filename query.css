@@ -59,7 +59,6 @@
   }
   .menu-btn {
     display: block;
-    position: relative;
   }
   .nav {
     flex-direction: column;
