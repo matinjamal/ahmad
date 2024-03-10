@@ -91,6 +91,8 @@
   }
   .nav-open .close {
     display: block;
+    opacity:1;
+    position: relative;
   }
   .nav-open .open {
     display: none;
