@@ -87,6 +87,9 @@ body {
   color: #dadada;
   /* position: fixed; */
 }
+ .logo {
+    z-index: 99999;
+  }
 .nav-list {
   list-style: none;
   display: flex;
