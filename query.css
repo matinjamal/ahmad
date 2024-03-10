@@ -54,9 +54,6 @@
     padding-top: 7rem;
     z-index: 9999;
   }
-  .logo {
-    z-index: 99999;
-  }
   .menu-btn {
     display: block;
   }
@@ -79,7 +76,6 @@
     opacity: 1;
     visibility: visible;
     transform: translateX(0);
-    /* z-index: 99999; */
   }
   .nav-list {
     flex-direction: column;
@@ -93,12 +89,11 @@
   .open {
     display: block;
   }
-  .nav-open .open {
-    display: none;
-  }
   .nav-open .close {
     display: block;
-    /* z-index: 99999; */
+  }
+  .nav-open .open {
+    display: none;
   }
   .hero-section {
     padding: 9.6rem 3rem;
